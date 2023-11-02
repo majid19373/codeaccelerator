@@ -4,6 +4,7 @@ import reverseText from './src/q2/index.js'
 import countUpperLowerCase from './src/q3/index.js'
 import textFileAndWords from './src/q4/index.js'
 import primeNumber from './src/q5/index.js'
+import uniqueWords from './src/q6/index.js'
 
 const term = terminal.terminal
 
@@ -15,6 +16,7 @@ const items = [
 	'3. Count the number of uppercase and lowercase letters',
 	'4. Text file and its words',
 	'5. Prime Numbers',
+	'6. Count the number of unique words',
 ]
 
 const projects = [
@@ -23,6 +25,7 @@ const projects = [
 	countUpperLowerCase,
 	textFileAndWords,
 	primeNumber,
+	uniqueWords,
 ]
 
 const consoleRun = (index) => {
