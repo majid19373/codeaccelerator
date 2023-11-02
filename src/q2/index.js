@@ -7,8 +7,7 @@ const reverseString = () => {
         console.log('\n')
         const text = input.split('')
         
-        text.reverse()
-        const joinText = text.join('')
+        const joinText = text.reverse().join('')
 
         term.red(`Input: ${input}\n`)
         term.blue(`Reverse: ${joinText}\n`)

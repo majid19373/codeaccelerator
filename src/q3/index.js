@@ -6,10 +6,12 @@ const countUpperLowerCase = () => {
 
     term.inputField(( error , input ) => {
         console.log('\n')
-        let lowercaseText = 0
         let uppercaseText = 0
+        let lowercaseText = 0
         const text = input.split('')
         
+
+
         text.forEach((item) => {
             if(/^[a-z]+$/.test(item)) lowercaseText++
             else if(/^[A-Z]+$/.test(item)) uppercaseText++

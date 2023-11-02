@@ -11,6 +11,7 @@ const countingCharacters = () => {
         let characters = 0
         const text = input.split('')
         
+        
         text.forEach((item) => {
             if(/^[A-Za-z]+$/.test(item)) alphabets++
             else if(/^[0-9]+$/.test(item)) numbers++
