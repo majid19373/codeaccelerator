@@ -10,6 +10,7 @@ import secondDay from './src/q8/index.js'
 import dataCount from './src/q9/index.js'
 import finalPrice from './src/q10/index.js'
 import calcGPA from './src/q11/index.js'
+import userJsonFile from './src/q12/index.js'
 
 const term = terminal.terminal
 
@@ -27,6 +28,7 @@ const items = [
 	'9. Data count of a text file',
 	'10. Calculate the final price of a product',
 	'11. Creating files for students and calculating their GPA',
+	'12. Convert user information to JSON file',
 ]
 
 const projects = [
@@ -41,6 +43,7 @@ const projects = [
 	dataCount,
 	finalPrice,
 	calcGPA,
+	userJsonFile,
 ]
 
 const consoleRun = (index) => {
