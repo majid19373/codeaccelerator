@@ -11,6 +11,7 @@ import dataCount from './src/q9/index.js'
 import finalPrice from './src/q10/index.js'
 import calcGPA from './src/q11/index.js'
 import userJsonFile from './src/q12/index.js'
+import shopCategory from './src/q13/index.js'
 
 const term = terminal.terminal
 
@@ -29,6 +30,7 @@ const items = [
 	'10. Calculate the final price of a product',
 	'11. Creating files for students and calculating their GPA',
 	'12. Convert user information to JSON file',
+	'13. Classification of shops according to their type',
 ]
 
 const projects = [
@@ -44,6 +46,7 @@ const projects = [
 	finalPrice,
 	calcGPA,
 	userJsonFile,
+	shopCategory,
 ]
 
 const consoleRun = (index) => {

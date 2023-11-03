@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "shop 01",
+        "category": "fastfood"
+    },
+    {
+        "id": 2,
+        "title": "shop 02",
+        "category": "resturant"
+    },
+    {
+        "id": 3,
+        "title": "shop 03",
+        "category": "resturant"
+    },
+    {
+        "id": 4,
+        "title": "shop 04",
+        "category": "fastfood"
+    },
+    {
+        "id": 5,
+        "title": "shop 05",
+        "category": "fastfood"
+    },
+    {
+        "id": 6,
+        "title": "shop 06",
+        "category": "fastfood"
+    }
+]
