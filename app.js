@@ -22,6 +22,7 @@ import {
 import {
 	displayUserInformation,
 	aggregateProduct,
+	gmailUsers,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -51,6 +52,7 @@ const items = [
 	'q1-18. Create a directory for employee files',
 	'q2-1. Display user information',
 	'q2-2. Aggregate product data',
+	'q2-3. Display the list of users who are registered with Gmail',
 ]
 
 const projects = [
@@ -74,6 +76,7 @@ const projects = [
 	exployeeDir,
 	displayUserInformation,
 	aggregateProduct,
+	gmailUsers,
 ]
 
 const consoleRun = (index) => {
