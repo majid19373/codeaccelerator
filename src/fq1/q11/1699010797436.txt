@@ -1,0 +1,6 @@
+Lesson 1: 15
+Lesson 2: 12
+Lesson 3: 18
+Lesson 4: 2.5
+Lesson 5: 20
+GPA: 13.5
