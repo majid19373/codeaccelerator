@@ -14,6 +14,7 @@ import userJsonFile from './src/q12/index.js'
 import shopCategory from './src/q13/index.js'
 import userStatus from './src/q14/index.js'
 import displayProducts from './src/q15/index.js'
+import bestCandidate from './src/q16/index.js'
 
 const term = terminal.terminal
 
@@ -35,6 +36,7 @@ const items = [
 	'13. Classification of shops according to their type',
 	'14. Filter users by status',
 	'15. Display product prices with their discounts',
+	'16. Finding the best candidate for a job opportunity',
 ]
 
 const projects = [
@@ -53,6 +55,7 @@ const projects = [
 	shopCategory,
 	userStatus,
 	displayProducts,
+	bestCandidate,
 ]
 
 const consoleRun = (index) => {

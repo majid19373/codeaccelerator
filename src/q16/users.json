@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Majid",
+        "intelligence": 65,
+        "general_information": 43,
+        "it": 75
+    },
+    {
+        "name": "Ali",
+        "intelligence": 43,
+        "general_information": 86,
+        "it": 23
+    },
+    {
+        "name": "Nader",
+        "intelligence": 55,
+        "general_information": 28,
+        "it": 90
+    },
+    {
+        "name": "Amir",
+        "intelligence": 57,
+        "general_information": 72,
+        "it": 21
+    }
+]
