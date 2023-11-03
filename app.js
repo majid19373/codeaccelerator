@@ -5,6 +5,7 @@ import countUpperLowerCase from './src/q3/index.js'
 import textFileAndWords from './src/q4/index.js'
 import primeNumber from './src/q5/index.js'
 import uniqueWords from './src/q6/index.js'
+import calcDays from './src/q7/index.js'
 
 const term = terminal.terminal
 
@@ -17,6 +18,7 @@ const items = [
 	'4. Text file and its words',
 	'5. Prime Numbers',
 	'6. Count the number of unique words',
+	'7. Calculate the number of days from a specific date',
 ]
 
 const projects = [
@@ -26,6 +28,7 @@ const projects = [
 	textFileAndWords,
 	primeNumber,
 	uniqueWords,
+	calcDays,
 ]
 
 const consoleRun = (index) => {
