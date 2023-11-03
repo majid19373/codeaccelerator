@@ -24,6 +24,7 @@ import {
 	aggregateProduct,
 	gmailUsers,
 	orderStatus,
+	userDontOrder,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -55,6 +56,7 @@ const items = [
 	'q2-2. Aggregate product data',
 	'q2-3. Display the list of users who are registered with Gmail',
 	'q2-4. Display the list of orders based on status',
+	'q2-5. List of users who have no orders',
 ]
 
 const projects = [
@@ -80,6 +82,7 @@ const projects = [
 	aggregateProduct,
 	gmailUsers,
 	orderStatus,
+	userDontOrder,
 ]
 
 const consoleRun = (index) => {
