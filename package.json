@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/terminal-kit": "^2.5.2",
+    "exceljs": "^4.4.0",
     "terminal-kit": "^3.0.1"
   }
 }

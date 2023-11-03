@@ -15,6 +15,7 @@ import shopCategory from './src/q13/index.js'
 import userStatus from './src/q14/index.js'
 import displayProducts from './src/q15/index.js'
 import bestCandidate from './src/q16/index.js'
+import csvFile from './src/q17/index.js'
 
 const term = terminal.terminal
 
@@ -37,6 +38,7 @@ const items = [
 	'14. Filter users by status',
 	'15. Display product prices with their discounts',
 	'16. Finding the best candidate for a job opportunity',
+	'17. Convert the list of products to an Excel file',
 ]
 
 const projects = [
@@ -56,6 +58,7 @@ const projects = [
 	userStatus,
 	displayProducts,
 	bestCandidate,
+	csvFile,
 ]
 
 const consoleRun = (index) => {

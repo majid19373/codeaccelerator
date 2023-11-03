@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Product 01",
+        "price": 150000,
+        "amount": 12,
+        "discount": 5,
+        "seller": "Majid",
+        "created": 1698500903
+    },
+    {
+        "title": "Product 02",
+        "price": 500000,
+        "amount": 2,
+        "discount": 12,
+        "seller": "Majid",
+        "created": 1695000903
+    },
+    {
+        "title": "Product 03",
+        "price": 360000,
+        "amount": 3,
+        "discount": 6,
+        "seller": "Ali",
+        "created": 1697000903
+    },
+    {
+        "title": "Product 04",
+        "price": 423500,
+        "amount": 0,
+        "discount": 0,
+        "seller": "Ali",
+        "created": 1696000903
+    }
+]
