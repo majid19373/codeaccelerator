@@ -1,0 +1,38 @@
+[
+    {
+        "first_name": "Majid",
+        "last_name": "Atar",
+        "email": "majid@gmail.com",
+        "is_active": 1
+    },
+    {
+        "first_name": "Ali",
+        "last_name": "Naderi",
+        "email": "naderi2gmail.com",
+        "is_active": 0
+    },
+    {
+        "first_name": "Saed",
+        "last_name": "Abasi",
+        "email": "abasi@gmail.com",
+        "is_active": 0
+    },
+    {
+        "first_name": "Jalal",
+        "last_name": "Jalali",
+        "email": "jalali@gmail.com",
+        "is_active": 1
+    },
+    {
+        "first_name": "Maryam",
+        "last_name": "Nasiri",
+        "email": "nasi@gmail.com",
+        "is_active": 1
+    },
+    {
+        "first_name": "Sara",
+        "last_name": "Ahmadi",
+        "email": "ahmadi@gmail.com",
+        "is_active": 1
+    }
+]
