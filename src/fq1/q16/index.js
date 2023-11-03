@@ -9,7 +9,7 @@ const indicator = {
 } 
 
 const bestCandidate = () => {
-    fs.readFile('./src/q16/users.json', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q16/users.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

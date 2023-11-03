@@ -3,7 +3,7 @@ import terminal from 'terminal-kit'
 const term = terminal.terminal
 
 const displayProducts = () => {
-    fs.readFile('./src/q15/products.json', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q15/products.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

@@ -3,7 +3,7 @@ import terminal from 'terminal-kit'
 const term = terminal.terminal
 
 const userStatus = () => {
-    fs.readFile('./src/q14/users.json', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q14/users.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

@@ -4,7 +4,7 @@ const term = terminal.terminal
 
 const uniqueWords = () => {
     console.log('\n')
-    fs.readFile('./src/q6/text.txt', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q6/text.txt', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

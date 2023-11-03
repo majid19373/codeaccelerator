@@ -4,7 +4,7 @@ const term = terminal.terminal
 
 const textFileAndWords = () => {
     console.log('\n')
-    fs.readFile('./src/q4/text.txt', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q4/text.txt', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

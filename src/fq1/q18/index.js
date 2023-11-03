@@ -2,7 +2,7 @@ import fs from 'fs'
 
 const userJson = (user) => {
     return new Promise((resolve, reject) => {
-        const path = `./src/q18/org/${user.organization}/${user.national_code}`
+        const path = `./src/fq1/q18/org/${user.organization}/${user.national_code}`
         fs.writeFileSync(`${path}/${user.first_name}-${user.id}.json`, JSON.stringify(user), 'utf8', (err) => {
             if (err) {
                 console.error(err);
@@ -16,7 +16,7 @@ const userJson = (user) => {
 
 const userCreate = (user) => {
     return new Promise((resolve, reject) => {
-        const path = `./src/q18/org/${user.organization}/${user.national_code}`
+        const path = `./src/fq1/q18/org/${user.organization}/${user.national_code}`
         fs.mkdirSync(path, { recursive: true }, (err) => {
             if (err) {
                 console.error(err);
@@ -27,7 +27,7 @@ const userCreate = (user) => {
 }
 
 const exployeeDir = async() => {
-    fs.readFile('./src/q18/users.json', 'utf8', async (err, data) => {
+    fs.readFile('./src/fq1/q18/users.json', 'utf8', async (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

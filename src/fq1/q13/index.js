@@ -1,7 +1,7 @@
 import fs from 'fs'
 
 const shopCategory = () => {
-    fs.readFile('./src/q13/shop.json', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q13/shop.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()

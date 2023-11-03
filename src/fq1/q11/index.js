@@ -26,7 +26,7 @@ const gpa = async() => {
             sum += res
         }
         text += `GPA: ${sum/5}` 
-        const path = `./src/q11/${(new Date().getTime())}.txt`
+        const path = `./src/fq1/q11/${(new Date().getTime())}.txt`
         fs.writeFile(path, text, (err) => {
             if(err){
                 console.log(err)

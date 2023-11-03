@@ -31,7 +31,7 @@ const userJsonFile = async() => {
         const res = await createUser()
         jsonFile.push(res)
     }
-    const path = `./src/q11/${(new Date().getTime())}.json`
+    const path = `./src/fq1/q11/${(new Date().getTime())}.json`
     fs.writeFile(path, JSON.stringify(jsonFile), 'utf8', (err) => {
         if (err) {
             term.red(err);

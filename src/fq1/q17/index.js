@@ -2,7 +2,7 @@ import ExcelJS from 'exceljs'
 import fs from 'fs'
 
 const csvFile = () => {
-    fs.readFile('./src/q17/products.json', 'utf8', (err, data) => {
+    fs.readFile('./src/fq1/q17/products.json', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             process.exit()
@@ -25,7 +25,7 @@ const csvFile = () => {
             ])
         });
 
-        const path = `./src/q17/${(new Date().getTime())}.csv`
+        const path = `./src/fq1/q17/${(new Date().getTime())}.csv`
         workbook.csv.writeFile(path)
         .then(() => {
             console.log('Excel file created successfully')
