@@ -25,6 +25,7 @@ import {
 	gmailUsers,
 	orderStatus,
 	userDontOrder,
+	productsComment,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -57,6 +58,7 @@ const items = [
 	'q2-3. Display the list of users who are registered with Gmail',
 	'q2-4. Display the list of orders based on status',
 	'q2-5. List of users who have no orders',
+	'q2-6. List of products with a certain number of comments',
 ]
 
 const projects = [
@@ -83,6 +85,7 @@ const projects = [
 	gmailUsers,
 	orderStatus,
 	userDontOrder,
+	productsComment,
 ]
 
 const consoleRun = (index) => {

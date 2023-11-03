@@ -3,6 +3,7 @@ import aggregateProduct from './q2/index.js'
 import gmailUsers from './q3/index.js'
 import orderStatus from './q4/index.js'
 import userDontOrder from './q5/index.js'
+import productsComment from './q6/index.js'
 
 export {
     displayUserInformation,
@@ -10,4 +11,5 @@ export {
     gmailUsers,
     orderStatus,
     userDontOrder,
+    productsComment,
 }
