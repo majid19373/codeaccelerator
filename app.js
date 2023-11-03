@@ -9,6 +9,7 @@ import calcDays from './src/q7/index.js'
 import secondDay from './src/q8/index.js'
 import dataCount from './src/q9/index.js'
 import finalPrice from './src/q10/index.js'
+import calcGPA from './src/q11/index.js'
 
 const term = terminal.terminal
 
@@ -25,6 +26,7 @@ const items = [
 	'8. Calculate the seconds from the start of the day',
 	'9. Data count of a text file',
 	'10. Calculate the final price of a product',
+	'11. Creating files for students and calculating their GPA',
 ]
 
 const projects = [
@@ -38,6 +40,7 @@ const projects = [
 	secondDay,
 	dataCount,
 	finalPrice,
+	calcGPA,
 ]
 
 const consoleRun = (index) => {
