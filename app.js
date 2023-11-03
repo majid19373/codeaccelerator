@@ -13,6 +13,7 @@ import calcGPA from './src/q11/index.js'
 import userJsonFile from './src/q12/index.js'
 import shopCategory from './src/q13/index.js'
 import userStatus from './src/q14/index.js'
+import displayProducts from './src/q15/index.js'
 
 const term = terminal.terminal
 
@@ -33,6 +34,7 @@ const items = [
 	'12. Convert user information to JSON file',
 	'13. Classification of shops according to their type',
 	'14. Filter users by status',
+	'15. Display product prices with their discounts',
 ]
 
 const projects = [
@@ -50,6 +52,7 @@ const projects = [
 	userJsonFile,
 	shopCategory,
 	userStatus,
+	displayProducts,
 ]
 
 const consoleRun = (index) => {

@@ -1,0 +1,52 @@
+[
+    {
+        "title": "product 01",
+        "price": 150000,
+        "discount": 5
+    },
+    {
+        "title": "product 01",
+        "price": 200000,
+        "discount": 2
+    },
+    {
+        "title": "product 01",
+        "price": 300000,
+        "discount": 60
+    },
+    {
+        "title": "product 01",
+        "price": 900000,
+        "discount": 0
+    },
+    {
+        "title": "product 01",
+        "price": 543000,
+        "discount": 20
+    },
+    {
+        "title": "product 01",
+        "price": 235000,
+        "discount": 3
+    },
+    {
+        "title": "product 01",
+        "price": 650000,
+        "discount": 12
+    },
+    {
+        "title": "product 01",
+        "price": 465000,
+        "discount": 13
+    },
+    {
+        "title": "product 01",
+        "price": 850000,
+        "discount": 15
+    },
+    {
+        "title": "product 01",
+        "price": 436000,
+        "discount": 7
+    }
+]
