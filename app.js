@@ -21,6 +21,7 @@ import {
 
 import {
 	displayUserInformation,
+	aggregateProduct,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -49,6 +50,7 @@ const items = [
 	'q1-17. Convert the list of products to an Excel file',
 	'q1-18. Create a directory for employee files',
 	'q2-1. Display user information',
+	'q2-2. Aggregate product data',
 ]
 
 const projects = [
@@ -71,6 +73,7 @@ const projects = [
 	csvFile,
 	exployeeDir,
 	displayUserInformation,
+	aggregateProduct,
 ]
 
 const consoleRun = (index) => {
