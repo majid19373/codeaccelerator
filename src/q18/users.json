@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "first_name": "Majid",
+        "last_name": "Atar",
+        "national_code": 1271271271,
+        "employeement_date": 1698500903,
+        "employeement_type": 1,
+        "salary": 5000,
+        "organization": "organization 01"
+    },
+    {
+        "id": 2,
+        "first_name": "Ali",
+        "last_name": "Naderi",
+        "national_code": 1291291291,
+        "employeement_date": 1697500903,
+        "employeement_type": 2,
+        "salary": 4500,
+        "organization": "organization 01"
+    },
+    {
+        "id": 3,
+        "first_name": "Sadegh",
+        "last_name": "Saedi",
+        "national_code": 1251251251,
+        "employeement_date": 1693250903,
+        "employeement_type": 1,
+        "salary": 4800,
+        "organization": "organization 02"
+    },
+    {
+        "id": 4,
+        "first_name": "Sara",
+        "last_name": "Sadeghi",
+        "national_code": 1221221221,
+        "employeement_date": 1698260903,
+        "employeement_type": 3,
+        "salary": 5000,
+        "organization": "organization 02"
+    },
+    {
+        "id": 5,
+        "first_name": "Maryam",
+        "last_name": "Khademi",
+        "national_code": 1211211211,
+        "employeement_date": 1698500903,
+        "employeement_type": 1,
+        "salary": 4600,
+        "organization": "organization 01"
+    },
+    {
+        "id": 6,
+        "first_name": "Shiva",
+        "last_name": "Nasiri",
+        "national_code": 1231231231,
+        "employeement_date": 1698500903,
+        "employeement_type": 2,
+        "salary": 4850,
+        "organization": "organization 01"
+    }
+]
