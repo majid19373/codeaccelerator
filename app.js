@@ -19,6 +19,10 @@ import {
     exployeeDir
 } from './src/fq1/index.js'
 
+import {
+	displayUserInformation,
+} from './src/fq2/index.js'
+
 import terminal from 'terminal-kit'
 
 const term = terminal.terminal
@@ -44,6 +48,7 @@ const items = [
 	'q1-16. Finding the best candidate for a job opportunity',
 	'q1-17. Convert the list of products to an Excel file',
 	'q1-18. Create a directory for employee files',
+	'q2-1. Display user information',
 ]
 
 const projects = [
@@ -65,6 +70,7 @@ const projects = [
 	bestCandidate,
 	csvFile,
 	exployeeDir,
+	displayUserInformation,
 ]
 
 const consoleRun = (index) => {
