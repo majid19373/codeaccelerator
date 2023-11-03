@@ -23,6 +23,7 @@ import {
 	displayUserInformation,
 	aggregateProduct,
 	gmailUsers,
+	orderStatus,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -53,6 +54,7 @@ const items = [
 	'q2-1. Display user information',
 	'q2-2. Aggregate product data',
 	'q2-3. Display the list of users who are registered with Gmail',
+	'q2-4. Display the list of orders based on status',
 ]
 
 const projects = [
@@ -77,6 +79,7 @@ const projects = [
 	displayUserInformation,
 	aggregateProduct,
 	gmailUsers,
+	orderStatus,
 ]
 
 const consoleRun = (index) => {
