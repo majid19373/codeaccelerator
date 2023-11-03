@@ -8,6 +8,7 @@ import uniqueWords from './src/q6/index.js'
 import calcDays from './src/q7/index.js'
 import secondDay from './src/q8/index.js'
 import dataCount from './src/q9/index.js'
+import finalPrice from './src/q10/index.js'
 
 const term = terminal.terminal
 
@@ -23,6 +24,7 @@ const items = [
 	'7. Calculate the number of days from a specific date',
 	'8. Calculate the seconds from the start of the day',
 	'9. Data count of a text file',
+	'10. Calculate the final price of a product',
 ]
 
 const projects = [
@@ -35,6 +37,7 @@ const projects = [
 	calcDays,
 	secondDay,
 	dataCount,
+	finalPrice,
 ]
 
 const consoleRun = (index) => {
