@@ -16,7 +16,7 @@ const info = () => {
                 ON comments.product_id = products.id
                 WHERE comments.created_at BETWEEN '${lastMonth}' AND '${currentDate}'
                 GROUP BY products.id
-                HAVING COUNT(products.id) > 2
+                HAVING COUNT(products.id) > 19
             `)
             console.log(res)
         } catch (error) {
