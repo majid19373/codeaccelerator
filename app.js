@@ -100,7 +100,7 @@ const consoleRun = (index) => {
 	}
 }
 
-term.singleColumnMenu( items , ( error , response ) => {
+term.gridMenu( items , ( error , response ) => {
 	term( '\n' ).eraseLineAfter(
 		consoleRun(response.selectedIndex)
 	)
