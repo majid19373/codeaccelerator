@@ -26,6 +26,7 @@ import {
 	orderStatus,
 	userDontOrder,
 	productsComment,
+	userBorn,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -59,6 +60,7 @@ const items = [
 	'q2-4. Display the list of orders based on status',
 	'q2-5. List of users who have no orders',
 	'q2-6. List of products with a certain number of comments',
+	'q2-7. List of users born on a specific date',
 ]
 
 const projects = [
@@ -86,6 +88,7 @@ const projects = [
 	orderStatus,
 	userDontOrder,
 	productsComment,
+	userBorn,
 ]
 
 const consoleRun = (index) => {
