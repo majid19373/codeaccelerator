@@ -5,6 +5,7 @@ import orderStatus from './q4/index.js'
 import userDontOrder from './q5/index.js'
 import productsComment from './q6/index.js'
 import userBorn from './q7/index.js'
+import monthlyOrder from './q8/index.js'
 
 export {
     displayUserInformation,
@@ -14,4 +15,5 @@ export {
     userDontOrder,
     productsComment,
     userBorn,
+    monthlyOrder,
 }

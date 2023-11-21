@@ -27,6 +27,7 @@ import {
 	userDontOrder,
 	productsComment,
 	userBorn,
+	monthlyOrder,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -61,6 +62,7 @@ const items = [
 	'q2-5. List of users who have no orders',
 	'q2-6. List of products with a certain number of comments',
 	'q2-7. List of users born on a specific date',
+	'q2-8. Monthly product sales statistics',
 ]
 
 const projects = [
@@ -89,6 +91,7 @@ const projects = [
 	userDontOrder,
 	productsComment,
 	userBorn,
+	monthlyOrder,
 ]
 
 const consoleRun = (index) => {
@@ -105,13 +108,3 @@ term.gridMenu( items , ( error , response ) => {
 		consoleRun(response.selectedIndex)
 	)
 }) 
-
-
-// SELECT
-//     YEAR(o.order_created_at) AS year,
-//     MONTH(o.order_created_at) AS month,
-//     p.*
-// FROM orders o
-// JOIN products p ON o.product_id = p.id
-// GROUP BY YEAR(o.order_created_at), MONTH(o.order_created_at), p.id
-// ORDER BY year, month, p.id;
