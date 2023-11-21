@@ -14,8 +14,8 @@ const info = () => {
                 SELECT users.* FROM users
                 LEFT JOIN orders 
                 ON orders.user_id = users.id
-                WHERE orders.order_created_at NOT BETWEEN '${lastMonth}' AND '${currentDate}'
-            `)
+                WHERE orders.order_created_at NOT BETWEEN ? AND ?
+            `, [lastMonth, currentDate])
             console.log(res)
         } catch (error) {
             console.error(error)

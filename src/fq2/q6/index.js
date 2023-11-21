@@ -14,10 +14,10 @@ const info = () => {
                 SELECT products.* FROM products
                 LEFT JOIN comments 
                 ON comments.product_id = products.id
-                WHERE comments.created_at BETWEEN '${lastMonth}' AND '${currentDate}'
+                WHERE comments.created_at BETWEEN ? AND ?
                 GROUP BY products.id
                 HAVING COUNT(products.id) > 19
-            `)
+            `, [lastMonth, currentDate])
             console.log(res)
         } catch (error) {
             console.error(error)

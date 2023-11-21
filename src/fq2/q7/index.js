@@ -9,8 +9,8 @@ const info = () => {
             const currentMonth = (new Date()).getMonth() + 1
             const res = await db.query(`
                 SELECT * FROM users
-                WHERE MONTH(birth_date) = ${currentMonth}
-            `)
+                WHERE MONTH(birth_date) = ?
+            `, [currentMonth])
             console.log(res)
         } catch (error) {
             console.error(error)

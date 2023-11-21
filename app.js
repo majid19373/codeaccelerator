@@ -105,3 +105,13 @@ term.gridMenu( items , ( error , response ) => {
 		consoleRun(response.selectedIndex)
 	)
 }) 
+
+
+// SELECT
+//     YEAR(o.order_created_at) AS year,
+//     MONTH(o.order_created_at) AS month,
+//     p.*
+// FROM orders o
+// JOIN products p ON o.product_id = p.id
+// GROUP BY YEAR(o.order_created_at), MONTH(o.order_created_at), p.id
+// ORDER BY year, month, p.id;
