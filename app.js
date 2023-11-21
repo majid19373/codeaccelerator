@@ -28,6 +28,7 @@ import {
 	productsComment,
 	userBorn,
 	monthlyOrder,
+	orderProductCategory,
 } from './src/fq2/index.js'
 
 import terminal from 'terminal-kit'
@@ -63,6 +64,7 @@ const items = [
 	'q2-6. List of products with a certain number of comments',
 	'q2-7. List of users born on a specific date',
 	'q2-8. Monthly product sales statistics',
+	'q2-9. Product sales statistics based on categories in a 3-month period',
 ]
 
 const projects = [
@@ -92,6 +94,7 @@ const projects = [
 	productsComment,
 	userBorn,
 	monthlyOrder,
+	orderProductCategory,
 ]
 
 const consoleRun = (index) => {

@@ -6,6 +6,7 @@ import userDontOrder from './q5/index.js'
 import productsComment from './q6/index.js'
 import userBorn from './q7/index.js'
 import monthlyOrder from './q8/index.js'
+import orderProductCategory from './q9/index.js'
 
 export {
     displayUserInformation,
@@ -16,4 +17,5 @@ export {
     productsComment,
     userBorn,
     monthlyOrder,
+    orderProductCategory,
 }

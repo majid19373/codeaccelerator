@@ -12,7 +12,7 @@ const info = () => {
                     p.* 
                 FROM products AS p
                 LEFT JOIN orders as o 
-                    ON p.id = o.product_id
+                ON p.id = o.product_id
                 WHERE o.status = 1
                 GROUP BY YEAR(o.order_created_at), MONTH(o.order_created_at), p.id
                 ORDER BY year, month, p.id
